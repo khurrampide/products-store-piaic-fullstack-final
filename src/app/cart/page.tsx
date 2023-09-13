@@ -159,7 +159,7 @@ useEffect(() => {
       <div className="">
 
       {dbData.map((item,i) => (      
-      <div className="p-12">        
+      <div key={i} className="p-12">        
         <div className="grid grid-cols-1 md:flex gap-16  ">
           {/* CARD LEFT SIDE */}
           <div className="grid grid-col-1 md:flex gap-8 mt-8  ">
